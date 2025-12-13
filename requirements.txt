@@ -1,0 +1,6 @@
+mlflow-skinny
+mlflow
+kagglehub
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.25.0
