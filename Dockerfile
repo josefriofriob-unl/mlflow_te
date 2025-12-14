@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 COPY src/ ./src/
-COPY MLproject conda.taml README.md ./
+COPY MLproject conda.yaml README.md ./
 COPY . .
 
 # Expone el puerto por defecto de Jupyter Lab
